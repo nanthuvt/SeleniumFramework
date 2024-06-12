@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test1">
+    <classes>
+      <class name="E2ETesting.EcomerceApp.EcomerceAppTC2"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="E2ETesting.EcomerceApp.EcomerceAppTC3"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test name="Test3">
+    <classes>
+      <class name="E2ETesting.EcomerceApp.EcomerceApp"/>
+    </classes>
+  </test> <!-- Test3 -->
+  <test name="Test1(failed)">
+    <classes>
+      <class name="E2ETesting.EcomerceApp.EcomerceAppTC3">
+        <methods>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceAppTC3 -->
+      <class name="E2ETesting.EcomerceApp.EcomerceAppTC2">
+        <methods>
+          <include name="EcomerceAppNegative"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceAppTC2 -->
+      <class name="E2ETesting.EcomerceApp.EcomerceApp">
+        <methods>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceApp -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <classes>
+      <class name="E2ETesting.EcomerceApp.EcomerceAppTC3">
+        <methods>
+          <include name="EcomerceAppPositive"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceAppTC3 -->
+      <class name="E2ETesting.EcomerceApp.EcomerceAppTC2">
+        <methods>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceAppTC2 -->
+      <class name="E2ETesting.EcomerceApp.EcomerceApp">
+        <methods>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceApp -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test3(failed)">
+    <classes>
+      <class name="E2ETesting.EcomerceApp.EcomerceAppTC3">
+        <methods>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceAppTC3 -->
+      <class name="E2ETesting.EcomerceApp.EcomerceAppTC2">
+        <methods>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceAppTC2 -->
+      <class name="E2ETesting.EcomerceApp.EcomerceApp">
+        <methods>
+          <include name="EcomerceAppPositive"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceApp -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

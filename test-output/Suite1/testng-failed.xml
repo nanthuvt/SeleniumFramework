@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="URL" value="url.com"/>
+  <test name="Nopackage">
+    <classes>
+      <class name="TestNGSample"/>
+      <class name="day2">
+        <methods>
+          <exclude name="Jelsy.*"/>
+        </methods>
+      </class> <!-- day2 -->
+    </classes>
+  </test> <!-- Nopackage -->
+  <test name="New Test">
+    <classes>
+      <class name="day3"/>
+      <class name="day4"/>
+    </classes>
+  </test> <!-- New Test -->
+</suite> <!-- Failed suite [Suite1] -->

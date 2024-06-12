@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-11T01:03:06 IST" name="Suite" finished-at="2024-06-11T01:03:33 IST" duration-ms="27180">
+    <groups>
+    </groups>
+    <test started-at="2024-06-11T01:03:06 IST" name="Test1" finished-at="2024-06-11T01:03:12 IST" duration-ms="5844">
+      <class name="E2ETesting.EcomerceApp.EcomerceAppTC2">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:E2ETesting.EcomerceApp.EcomerceAppTC2@60611244]" started-at="2024-06-11T01:03:06 IST" name="LaunchApplication" finished-at="2024-06-11T01:03:11 IST" duration-ms="5355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="EcomerceAppNegative()[pri:0, instance:E2ETesting.EcomerceApp.EcomerceAppTC2@60611244]" started-at="2024-06-11T01:03:11 IST" name="EcomerceAppNegative" finished-at="2024-06-11T01:03:12 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EcomerceAppNegative -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:E2ETesting.EcomerceApp.EcomerceAppTC2@60611244]" started-at="2024-06-11T01:03:12 IST" name="closeDriver" finished-at="2024-06-11T01:03:12 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceAppTC2 -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-06-11T01:03:12 IST" name="Test2" finished-at="2024-06-11T01:03:19 IST" duration-ms="6886">
+      <class name="E2ETesting.EcomerceApp.EcomerceAppTC3">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:E2ETesting.EcomerceApp.EcomerceAppTC3@7995092a]" started-at="2024-06-11T01:03:12 IST" name="LaunchApplication" finished-at="2024-06-11T01:03:16 IST" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="EcomerceAppPositive()[pri:0, instance:E2ETesting.EcomerceApp.EcomerceAppTC3@7995092a]" started-at="2024-06-11T01:03:16 IST" name="EcomerceAppPositive" finished-at="2024-06-11T01:03:19 IST" duration-ms="2503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EcomerceAppPositive -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:E2ETesting.EcomerceApp.EcomerceAppTC3@7995092a]" started-at="2024-06-11T01:03:19 IST" name="closeDriver" finished-at="2024-06-11T01:03:19 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceAppTC3 -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-06-11T01:03:19 IST" name="Test3" finished-at="2024-06-11T01:03:33 IST" duration-ms="14428">
+      <class name="E2ETesting.EcomerceApp.EcomerceApp">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:E2ETesting.EcomerceApp.EcomerceApp@7692d9cc]" started-at="2024-06-11T01:03:19 IST" name="LaunchApplication" finished-at="2024-06-11T01:03:23 IST" duration-ms="3925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="EcomerceAppPositive(java.util.HashMap)[pri:0, instance:E2ETesting.EcomerceApp.EcomerceApp@7692d9cc]" started-at="2024-06-11T01:03:23 IST" name="EcomerceAppPositive" data-provider="getData" finished-at="2024-06-11T01:03:27 IST" duration-ms="3767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{uname=nanthuvt@gmail.com, pwd=Rahulshetty1!, product=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EcomerceAppPositive -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:E2ETesting.EcomerceApp.EcomerceApp@7692d9cc]" started-at="2024-06-11T01:03:27 IST" name="closeDriver" finished-at="2024-06-11T01:03:27 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:E2ETesting.EcomerceApp.EcomerceApp@7692d9cc]" started-at="2024-06-11T01:03:27 IST" name="LaunchApplication" finished-at="2024-06-11T01:03:29 IST" duration-ms="2855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="EcomerceAppPositive(java.util.HashMap)[pri:0, instance:E2ETesting.EcomerceApp.EcomerceApp@7692d9cc]" started-at="2024-06-11T01:03:29 IST" name="EcomerceAppPositive" data-provider="getData" finished-at="2024-06-11T01:03:33 IST" duration-ms="3536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{uname=nanthuvt@gmail.com, pwd=Rahulshetty1!, product=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EcomerceAppPositive -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:E2ETesting.EcomerceApp.EcomerceApp@7692d9cc]" started-at="2024-06-11T01:03:33 IST" name="closeDriver" finished-at="2024-06-11T01:03:33 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- E2ETesting.EcomerceApp.EcomerceApp -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
